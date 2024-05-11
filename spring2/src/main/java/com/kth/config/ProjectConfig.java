@@ -3,6 +3,7 @@ package com.kth.config;
 import com.kth.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 /*
 Spring @Configuration annotation is part of the spring core framework.
@@ -33,6 +34,7 @@ public class ProjectConfig {
         return veh;
     }
 
+    @Primary
     @Bean("ferrariVehicle")
     Vehicle vehicle3() {
         var veh = new Vehicle();
