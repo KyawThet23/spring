@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.eazybytes.eazyschool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class EazyschoolApplicationTests {
 
 	@Test
 	void contextLoads() {
